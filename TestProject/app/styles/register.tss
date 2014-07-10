@@ -120,7 +120,7 @@
 
 "#btn_signup": {
 	title:"Sign Up",
-	backgroundColor: "red",
+	backgroundColor: "#FE2E2E",
 	borderColor: "gray",
 	top:"80%",
 	left: "35%",

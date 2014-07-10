@@ -3,7 +3,6 @@
  
 titanium build --platform android --sdk 3.2.2.GA --build-only --shadow;
  
-
 #adb -s 192.168.56.101:5555 install -r "build/appify/build/android/bin/TestProject.apk";
  
 if [ $# -eq 0 ]

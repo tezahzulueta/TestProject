@@ -1,17 +1,14 @@
 var functions = require('functions');
 
-
 //variables used in register form
-var username = $.txt_username.value;
-var email = $.txt_email.value;
-var password = $.txt_password.value;
-var gender = "";
-var birthdate = "";
+var gender = "";  
 var post = null;
 var posts = null;
 //function for saving and verifying the data input in textfield
+
 var saveData = function() 
 {
+
   if ((username != '') && (email != '') && (password != ''))
     {  
       //create post variable to create access to database name post
@@ -26,7 +23,6 @@ var saveData = function()
       //code to save date from database
       post.save();
     }
-    alert("Dasd");
 
       // //code for accessing the database post
       // posts = Alloy.Collections.instance("post");
@@ -58,22 +54,6 @@ $.btn_female.addEventListener('click', function() {
     $.btn_female.backgroundColor = '#FF0066';   //change the color of the female button when click
     $.btn_male.backgroundColor = '#3399FF';     //change the color of the male button when click
     gender = "female";    //put female value to the variable gender
-
-    posts = Alloy.Collections.instance("post");
-    posts.fetch();
-    
-    //code for getting the data from database
-    posts.map(function(post){
-    var _email = post.get("email");
-    var _password = post.get("password");
-    var _gender = post.get("gender");
-    var _birthdate = post.get("birthdate");
-    //for testing if the data has been save
-    Ti.API.info("USERNAME: " + _username);
-    Ti.API.info("EMAIL: " + _email);
-    Ti.API.info("PASSWORD: " + _password);
-    Ti.API.info("GENDER" + _gender);
-    });
  }); 
 
 $.btn_male.addEventListener('click', function() { 
@@ -82,7 +62,26 @@ $.btn_male.addEventListener('click', function() {
     gender = "male";
  });  
 
-$.btn_signup.addEventListener('click', saveData);
+$.btn_signup.addEventListener("click", function() {
+  //passing the value of textfield into variable
+  username = $.txt_username.value;
+  var username = $.txt_username.value;
+  var email = $.txt_email.value;
+  var password = $.txt_password.value;
+  var birthdate = "";
+
+  //saving the value of variable in database
+  post = Alloy.createModel("post", {
+    username: username,
+    email: email,
+    password: password,
+    gender: gender,
+    birthdate: birthdate
+  });
+  post.save();
+  //calling the functions 
+  functions.dataCollections();
+});
 
 var current_Date = Date.now();  
 

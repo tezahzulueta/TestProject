@@ -164,7 +164,7 @@ function Controller() {
     $.__views.register.add($.__views.picker);
     $.__views.btn_signup = Ti.UI.createButton({
         title: "Sign Up",
-        backgroundColor: "red",
+        backgroundColor: "#FE2E2E",
         borderColor: "gray",
         top: "80%",
         left: "35%",
@@ -175,48 +175,35 @@ function Controller() {
     $.__views.register.add($.__views.btn_signup);
     exports.destroy = function() {};
     _.extend($, $.__views);
-    require("functions");
-    var username = $.txt_username.value;
-    var email = $.txt_email.value;
-    var password = $.txt_password.value;
+    var functions = require("functions");
     var gender = "";
     var post = null;
-    var posts = null;
-    var saveData = function() {
-        if ("" != username && "" != email && "" != password) {
-            post = Alloy.createModel("post", {
-                username: username,
-                email: email,
-                password: password,
-                gender: gender
-            });
-            post.save();
-        }
-        alert("Dasd");
-    };
     $.btn_female.addEventListener("click", function() {
         $.btn_female.backgroundColor = "#FF0066";
         $.btn_male.backgroundColor = "#3399FF";
         gender = "female";
-        posts = Alloy.Collections.instance("post");
-        posts.fetch();
-        posts.map(function(post) {
-            var _email = post.get("email");
-            var _password = post.get("password");
-            var _gender = post.get("gender");
-            post.get("birthdate");
-            Ti.API.info("USERNAME: " + _username);
-            Ti.API.info("EMAIL: " + _email);
-            Ti.API.info("PASSWORD: " + _password);
-            Ti.API.info("GENDER" + _gender);
-        });
     });
     $.btn_male.addEventListener("click", function() {
         $.btn_male.backgroundColor = "#0066FF";
         $.btn_female.backgroundColor = "#FF6699";
         gender = "male";
     });
-    $.btn_signup.addEventListener("click", saveData);
+    $.btn_signup.addEventListener("click", function() {
+        username = $.txt_username.value;
+        var username = $.txt_username.value;
+        var email = $.txt_email.value;
+        var password = $.txt_password.value;
+        var birthdate = "";
+        post = Alloy.createModel("post", {
+            username: username,
+            email: email,
+            password: password,
+            gender: gender,
+            birthdate: birthdate
+        });
+        post.save();
+        functions.dataCollections();
+    });
     var current_Date = Date.now();
     $.txt_date.addEventListener("click", function() {
         $.picker.showDatePickerDialog({
