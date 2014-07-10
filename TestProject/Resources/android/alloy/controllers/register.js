@@ -175,7 +175,7 @@ function Controller() {
     $.__views.register.add($.__views.btn_signup);
     exports.destroy = function() {};
     _.extend($, $.__views);
-    var functions = require("functions");
+    require("functions");
     var username = $.txt_username.value;
     var email = $.txt_email.value;
     var password = $.txt_password.value;
@@ -192,7 +192,6 @@ function Controller() {
             });
             post.save();
         }
-        functions.dataCollections();
         alert("Dasd");
     };
     $.btn_female.addEventListener("click", function() {

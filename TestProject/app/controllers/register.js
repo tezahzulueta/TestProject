@@ -26,7 +26,6 @@ var saveData = function()
       //code to save date from database
       post.save();
     }
-    functions.dataCollections();
     alert("Dasd");
 
       // //code for accessing the database post
