@@ -1,0 +1,74 @@
+".container": {
+	backgroundColor:"white",
+}
+
+"TextField": {
+	//backgroundColor:"gray",
+	borderColor: "black"
+}
+
+"#lbl_title": {
+	color: 'Black',
+  	font: { fontSize:48 },
+  	shadowColor: '#aaa',
+  	shadowOffset: {x:5, y:5},
+  	shadowRadius: 3,
+  	text: 'Login Form',
+  	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  	top: 30,
+  	width: Ti.UI.SIZE, 
+  	height: Ti.UI.SIZE
+} 
+
+"#lbl_username": {
+	color: 'Black',
+  	font: { fontSize:16 },
+  	text: 'Username:',
+  	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  	top: "25%",
+  	left: "20%",
+  	width: Ti.UI.SIZE, 
+  	height: Ti.UI.SIZE 
+}
+
+"#txt_username": {	font: { fontSize:16 },
+	color: "black",
+	top: "24%",
+	left: "45%",
+	width: "40%",
+	height: Ti.UI.SIZE,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_BOTTOM
+}
+
+"#lbl_password": {
+	color: 'Black',
+  	font: { fontSize:16 },
+  	text: 'Password:',
+  	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  	top: "40%", 
+  	left: "20%",
+  	width: Ti.UI.SIZE, 
+  	height: Ti.UI.SIZE 
+}
+
+"#txt_password": {
+	font: { fontSize:16 },
+	color: "black",
+	top: "39%",
+	left: "45%",
+	width: "40%",
+	height: Ti.UI.SIZE,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_BOTTOM
+}
+
+"#btn_login": {
+	title:"Login",
+	backgroundColor: 'blue',
+	top:"50%",
+	left: "50%",
+	width: "30%",
+	height: Ti.UI.SIZE
+}
+
+
+

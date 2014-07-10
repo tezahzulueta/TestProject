@@ -1,0 +1,18 @@
+<Alloy>
+	<Window class="container">
+		<Label id="lbl_title"></Label>
+		<Label id="lbl_username"></Label>
+		<TextField id="txt_username"></TextField>
+		<Label id="lbl_email"></Label>
+		<TextField id="txt_email"></TextField>
+		<Label id="lbl_password"></Label>
+		<TextField id="txt_password"></TextField>
+		<Label id="lbl_gender"></Label>
+		<Button id="btn_male"></Button>>
+		<Button id="btn_female"></Button>
+		<Label id="lbl_birthdate"></Label>
+		<TextField id="txt_date"></TextField>>
+		<Picker id="picker"></Picker>
+		<Button id="btn_signup"></Button>
+	</Window>
+</Alloy>

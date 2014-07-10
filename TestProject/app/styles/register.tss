@@ -1,0 +1,134 @@
+".container": {
+	backgroundColor: "white"
+}
+
+"#lbl_title": {
+	color: 'Black',
+  	font: { fontSize:36 },
+  	shadowColor: '#aaa',
+  	shadowOffset: {x:5, y:5},
+  	shadowRadius: 3,
+  	text: 'Create Account',
+  	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  	top: 30,
+  	width: Ti.UI.SIZE, 
+  	height: Ti.UI.SIZE
+} 
+
+"#lbl_username": {
+	text: "Username:",
+	top: "20%",
+	left: "10%",
+	color: "black"
+}
+
+"#txt_username": {	font: { fontSize:16 },
+	hintText: "Enter Username",
+	color: "black",
+	borderColor: "#59BCFF",
+	top: "19%",
+	left: "35%",
+	width: "50%",
+	height: Ti.UI.SIZE,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_BOTTOM,
+	padding: 0
+}
+
+"#lbl_email": {
+	text: "Email:",
+	top: "30%",
+	left: "10%",
+	color: "black"
+}
+
+"#txt_email": {	font: { fontSize:16 },
+	hintText: "Enter Email",
+	color: "black",
+	borderColor: "#59BCFF",
+	top: "29%",
+	left: "35%",
+	width: "50%",
+	height: Ti.UI.SIZE,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_BOTTOM,
+	padding: 0
+}
+
+"#lbl_password": {
+	text: "Password:",
+	top: "40%",
+	left: "10%",
+	color: "black"
+}
+
+"#txt_password": {	font: { fontSize:16 },
+	passwordMask: true,
+	hintText: "Enter Password",
+	color: "black",
+	borderColor: "#59BCFF",
+	top: "39%",
+	left: "35%",
+	width: "50%",
+	height: Ti.UI.SIZE,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_BOTTOM,
+	padding: 0
+}
+
+"#lbl_gender": {
+	text: "Gender",
+	font: { fontSize:20},
+	top: "50%",
+	left: "40%",
+	color: "black"
+}
+
+"#btn_female": {
+	title:"Female",
+	backgroundColor: "#FF6699",
+	top:"57%",
+	left: "20%",
+	width: "25%",
+	height: "8%"
+}
+
+"#btn_male": {
+	title:"Male",
+	backgroundColor: "#3399FF",
+	top:"57%",
+	left: "50%",
+	width: "25%",
+	height: "8%"
+}
+
+"#lbl_birthdate": {
+	text: "Birthdate:",
+	top: "70%",
+	left: "10%",
+	color: "black"
+}
+
+"#txt_date": {	font: { fontSize:16 },
+	hintText: "mm|dd|yyyy",
+	color: "black",
+	borderColor: "#59BCFF",
+	top: "69%",
+	left: "35%",
+	width: "31%",
+	height: Ti.UI.SIZE,
+	textAlign: Ti.UI.TEXT_ALIGNMENT_BOTTOM,
+	padding: 0
+}
+
+"#btn_signup": {
+	title:"Sign Up",
+	backgroundColor: "red",
+	borderColor: "gray",
+	top:"80%",
+	left: "35%",
+	width: "25%",
+	height: "8%",
+}
+
+
+
+
+

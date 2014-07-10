@@ -1,0 +1,7 @@
+<Alloy>
+	<Window class="container">
+		<Label id="lbl_title"></Label>
+		<Button id="btn_login"></Button>
+		<Button id="btn_register"></Button> 
+	</Window>
+</Alloy>

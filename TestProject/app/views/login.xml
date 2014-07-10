@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container">
+		<Label id="lbl_title"></Label>	
+ 		<Label id="lbl_username"></Label>
+		<TextField id="txt_username"></TextField>
+ 		<Label id="lbl_password"></Label>
+		<TextField id="txt_password"></TextField>
+		<Button id="btn_login"></Button>
+	</Window>
+</Alloy>

@@ -1,0 +1,767 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"creta",
+				"Ti.Network.createHTTPClient()"
+			],
+			[
+				"ti",
+				"Ti"
+			],
+			[
+				"createTab",
+				"Ti.UI.createTableView()"
+			],
+			[
+				"Ta",
+				"TableView"
+			],
+			[
+				"row",
+				"rowIndex2"
+			],
+			[
+				"s",
+				"source"
+			],
+			[
+				"cu",
+				"currentIndex"
+			],
+			[
+				"cl",
+				"click"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"ri",
+				"rightTableView"
+			],
+			[
+				"las",
+				"lastIndexClick"
+			],
+			[
+				"re",
+				"removeClass"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"span",
+				"spanID"
+			],
+			[
+				"categ",
+				"category"
+			],
+			[
+				"menu",
+				"menuTitle"
+			],
+			[
+				"tab",
+				"tableData"
+			],
+			[
+				"rig",
+				"rightData"
+			],
+			[
+				"view",
+				"viewID"
+			],
+			[
+				"vie",
+				"viewID"
+			],
+			[
+				"zin",
+				"zIndexAmount"
+			],
+			[
+				"zIN",
+				"zIndexAmount"
+			],
+			[
+				"ima",
+				"imageToremove"
+			],
+			[
+				"chi",
+				"child"
+			],
+			[
+				"my",
+				"myparent"
+			],
+			[
+				"ch",
+				"child"
+			],
+			[
+				"wind",
+				"currentWindow"
+			],
+			[
+				"pare",
+				"parentName"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"anima",
+				"animateThis"
+			],
+			[
+				"zIn",
+				"zIndexAmount"
+			],
+			[
+				"z",
+				"zIndexAmount"
+			],
+			[
+				"gro",
+				"groupOfViews"
+			],
+			[
+				"to",
+				"touchEnabled"
+			],
+			[
+				"te",
+				"tempImageView1"
+			],
+			[
+				"get",
+				"getImage"
+			],
+			[
+				"mar",
+				"marker"
+			],
+			[
+				"marker",
+				"markerCount"
+			],
+			[
+				"gru",
+				"groupOfViews"
+			],
+			[
+				"the",
+				"thechild"
+			],
+			[
+				"th",
+				"theChild"
+			],
+			[
+				"current",
+				"currentWindow"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"touch",
+				"touchables"
+			],
+			[
+				"he",
+				"hello"
+			],
+			[
+				"_",
+				"_H"
+			],
+			[
+				"link",
+				"linkCompleteID"
+			],
+			[
+				"lin",
+				"linkCompleteID"
+			],
+			[
+				"lnk",
+				"linkCompleteID"
+			],
+			[
+				"icon",
+				"iconID"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"sub",
+				"subCatID"
+			],
+			[
+				"sel",
+				"selected"
+			],
+			[
+				"cat",
+				"catId"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"er",
+				"errors"
+			],
+			[
+				"arra",
+				"arrayCatName"
+			],
+			[
+				"cate",
+				"categoryCount"
+			],
+			[
+				"ajax",
+				"ajaxShow"
+			],
+			[
+				"bread",
+				"breadcrumb"
+			],
+			[
+				"auth",
+				"author"
+			],
+			[
+				"account",
+				"account_id"
+			],
+			[
+				"doc",
+				"documents"
+			],
+			[
+				"depa",
+				"department"
+			],
+			[
+				"lis",
+				"lists"
+			],
+			[
+				"subCat",
+				"subCategories"
+			],
+			[
+				"catego",
+				"categories"
+			],
+			[
+				"end",
+				"endforeach"
+			],
+			[
+				"subca",
+				"subcategory"
+			],
+			[
+				"do",
+				"documents"
+			],
+			[
+				"depar",
+				"departments"
+			],
+			[
+				"docu",
+				"documentView"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package ",
+				"Package Control: Install Package"
+			],
+			[
+				"Php",
+				"Set Syntax: PHP"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 454.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/tezahzulueta/Documents/Titanium_Studio_Workspace/CrashCourseTraining/app/alloy.js",
+		"/Users/tezahzulueta/Documents/Titanium_Studio_Workspace/CrashCourseTraining/geny.sh",
+		"/Users/tezahzulueta/Documents/Titanium_Studio_Workspace/CrashCourseTraining/build/appify/build/android/gen/com/foolprooflabs/crashcoursetraining/CrashcoursetrainingActivity.java",
+		"/Users/tezahzulueta/Documents/Titanium_Studio_Workspace/CrashCourseTraining/app/views/home.xml",
+		"/Users/tezahzulueta/Documents/Titanium_Studio_Workspace/CrashCourseTraining/app/styles/rsFeed.tss",
+		"/Users/tezahzulueta/Documents/Titanium_Studio_Workspace/CrashCourseTraining/app/lib/func.js",
+		"/Users/tezahzulueta/Documents/Titanium_Studio_Workspace/CrashCourseTraining/app/controllers/index.js",
+		"/Users/tezahzulueta/Documents/Titanium_Studio_Workspace/CrashCourseTraining/app/styles/index.tss",
+		"/Users/tezahzulueta/Documents/Titanium_Studio_Workspace/CrashCourseTraining/app/controllers/details.js",
+		"/Users/tezahzulueta/Documents/Titanium_Studio_Workspace/CrashCourseTraining/app/views/scrollView.xml",
+		"/Users/tezahzulueta/Documents/Titanium_Studio_Workspace/CrashCourseTraining/app/styles/scrollView.tss",
+		"/Users/tezahzulueta/Documents/Titanium_Studio_Workspace/CrashCourseTraining/app/controllers/scrollView.js",
+		"/Users/tezahzulueta/Documents/Titanium_Studio_Workspace/CrashCourseTraining/app/styles/details.tss",
+		"/Users/tezahzulueta/Documents/Titanium_Studio_Workspace/Titanium_Training/app/styles/index.tss",
+		"/Users/tezahzulueta/Documents/Titanium_Studio_Workspace/Titanium_Training/app/controllers/index.js",
+		"/Users/tezahzulueta/Documents/Titanium_Studio_Workspace/Titanium_Training/app/views/index.xml",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/crashcourse/app/alloy.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/crashcourse/app/controllers/settings.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/crashcourse/app/styles/blogPostDetail.tss",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/crashcourse/app/views/blogPostDetail.xml",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/crashcourse/app/styles/photoGallery.tss",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/crashcourse/app/views/photoGallery.xml",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/crashcourse/app/controllers/photoGallery.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/crashcourse/app/controllers/blogPostDetail.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/crashcourse/app/models/blogpost.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/crashcourse/app/controllers/rssFeed.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/controllers/drawer.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/crashcourse/app/styles/settings.tss",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/crashcourse/app/views/settings.xml",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/crashcourse/app/models/updates.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/crashcourse/app/models/migrations/untitled",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/controllers/settings.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/views/settings.xml",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/styles/settings.tss",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/crashcourse/app/controllers/drawer.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/crashcourse/tiapp.xml",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/crashcourse/app/config.json",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/crashcourse/geny.sh",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/crashcourse/app/controllers/index.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/crashcourse/app/controllers/menu.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/tiapp.xml",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/controllers/menu.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/controllers/rssFeed.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/controllers/blogPostDetail.js",
+		"/Users/alvinjohntandoc/Desktop/Blog App/app/controllers/blogdetail.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/styles/blogPostDetail.tss",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/views/blogPostDetail.xml",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/models/blogpost.js",
+		"/Users/alvinjohntandoc/Desktop/Blog App/app/controllers/index.js",
+		"/Users/alvinjohntandoc/Desktop/Blog App/app/models/post.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/views/rssFeed.xml",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/styles/rssFeed.tss",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/controllers/index.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/models/migrations/201406221700900_post.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/controllers/photoGallery.js",
+		"/Users/alvinjohntandoc/Desktop/Blog App/tiapp.xml",
+		"/Users/alvinjohntandoc/Desktop/Blog App/app/alloy.js",
+		"/Users/alvinjohntandoc/Desktop/Blog App/app/models/migrations/201406221700900_post.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/views/index.xml",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/views/menu.xml",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/views/photoGallery.xml",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/views/menurow.xml",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/styles/photoGallery.tss",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/styles/drawer.tss",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/views/drawer.xml",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/styles/menurow.tss",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/controllers/main.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/controllers/menurow.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/modules/android/com.tripvi.drawerlayout/1.0.1/timodule.xml",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/controllers/untitled",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/app/styles/index.tss",
+		"/Users/alvinjohntandoc/Downloads/Sample.RSS-stable/Resources/services/rss.js",
+		"/Users/alvinjohntandoc/Sites/Titanium/worldairporttransfer/app/controllers/index.js",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/geny.sh",
+		"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium/build/android/bin/CrashCourseTitanium.apk",
+		"/Users/alvinjohntandoc/Downloads/themeforest-7497248-lightning-multipurpose-minimalist-theme/documentation/page_code/About Us.txt",
+		"/Users/alvinjohntandoc/Desktop/leanovation/app/styles/index.tss",
+		"/Users/alvinjohntandoc/Desktop/leanovation/app/assets/toolbox@2x.png",
+		"/Users/alvinjohntandoc/Sites/Titanium/AlloySliderMenu-master/tiapp.xml",
+		"/Users/alvinjohntandoc/Sites/Titanium/AlloySliderMenu-master/app/styles/index.tss",
+		"/Users/alvinjohntandoc/Sites/Titanium/AlloySliderMenu-master/app/controllers/index.js",
+		"/Users/alvinjohntandoc/Sites/Laravel/employeeportal_laravel/app/views/user/myDepartment.blade.php",
+		"/Users/alvinjohntandoc/Downloads/themeforest-7497248-lightning-multipurpose-minimalist-theme/documentation/page_code/Our Team.txt",
+		"/Users/alvinjohntandoc/Sites/Laravel/employeeportal_laravel/app/views/user/allDocs.blade.php",
+		"/Users/alvinjohntandoc/Sites/Titanium/AlloySliderMenu-master/app/controllers/menurow.js",
+		"/Users/alvinjohntandoc/Sites/Titanium/AlloySliderMenu-master/app/widgets/ds.slideMenu/styles/widget.tss",
+		"/Users/alvinjohntandoc/Sites/Titanium/worldairporttransfer/app/widgets/ds.slideMenu/controllers/widget.js",
+		"/Users/alvinjohntandoc/Sites/Titanium/AlloySliderMenu-master/app/widgets/ds.slideMenu/controllers/widget.js",
+		"/Users/alvinjohntandoc/Sites/Titanium/worldairporttransfer/app/controllers/menu.js",
+		"/Users/alvinjohntandoc/Sites/Titanium/worldairporttransfer/app/alloy.js",
+		"/Users/alvinjohntandoc/Sites/Titanium/worldairporttransfer/app/controllers/menurow.js",
+		"/Users/alvinjohntandoc/Sites/Titanium/AlloySliderMenu-master/app/controllers/view3.js",
+		"/Users/alvinjohntandoc/Sites/Titanium/AlloySliderMenu-master/app/widgets/ds.slideMenu/views/widget.xml",
+		"/Users/alvinjohntandoc/Sites/Titanium/AlloySliderMenu-master/app/views/index.xml",
+		"/Users/alvinjohntandoc/Sites/Titanium/AlloySliderMenu-master/app/views/view3.xml",
+		"/Users/alvinjohntandoc/Sites/Titanium/AlloySliderMenu-master/app/views/view2.xml",
+		"/Users/alvinjohntandoc/Sites/Titanium/leanovation/app/config.json",
+		"/Users/alvinjohntandoc/Sites/Titanium/worldairporttransfer/tiapp.xml",
+		"/Users/alvinjohntandoc/Sites/wordpress/newyorkbarstore/wordpress/wp-content/themes/nybble_v2/style.css",
+		"/Users/alvinjohntandoc/Sites/wordpress/newyorkbarstore/wordpress/wp-content/themes/nybble_v2/index.php",
+		"/Users/alvinjohntandoc/Desktop/leanovation/app/controllers/index.js",
+		"/Users/alvinjohntandoc/Sites/Titanium/catbeard/app/alloy.js",
+		"/Users/alvinjohntandoc/Desktop/Divi2/et-pagebuilder/et-pagebuilder.php",
+		"/Users/alvinjohntandoc/Desktop/Divi2/style.css",
+		"/Users/alvinjohntandoc/Desktop/Divi/style.css",
+		"/Users/alvinjohntandoc/Sites/cssFrameworks/responsive-layout-tester/css/style.css",
+		"/Users/alvinjohntandoc/Sites/cssFrameworks/responsive-layout-tester/index.php",
+		"/private/var/folders/6s/33g5nblj0r79_68w7c8ryc300000gn/T/fz3temp-1/header.php",
+		"/private/var/folders/6s/33g5nblj0r79_68w7c8ryc300000gn/T/fz3temp-1/wp-config.php",
+		"/Users/alvinjohntandoc/Desktop/no image yet",
+		"/Users/alvinjohntandoc/Desktop/foods that are listed but cant be found on the menu",
+		"/Users/alvinjohntandoc/Sites/newyorkbarstore-7577477/layout/theme.liquid",
+		"/Users/alvinjohntandoc/Sites/newyorkbarstore-7577477/assets/custom.css",
+		"/Users/alvinjohntandoc/Sites/wordpress/oneway/wp-content/themes/barnelli-wp/includes/custom-menu.php",
+		"/Users/alvinjohntandoc/Sites/Titanium/PlatinoShooter/geny.sh",
+		"/Users/alvinjohntandoc/Sites/Titanium/PlatinoShooter/tiapp.xml",
+		"/Users/alvinjohntandoc/Sites/wordpress/oneway/wp-content/themes/barnelli-wp/js/main.js",
+		"/Users/alvinjohntandoc/Sites/Titanium/MyFirstProject/geny.sh",
+		"/Users/alvinjohntandoc/Sites/Titanium/catbeard/app/styles/camera.tss",
+		"/Users/alvinjohntandoc/Sites/Titanium/catbeard/app/controllers/camera.js",
+		"/Users/alvinjohntandoc/Sites/Titanium/catbeard/app/controllers/index.js",
+		"/Users/alvinjohntandoc/Sites/Laravel/employeeportal_laravel/app/controllers/UserMyDepartmentController.php",
+		"/Users/alvinjohntandoc/Sites/Laravel/employeeportal_laravel/vendor/laravel/framework/src/Illuminate/Support/helpers.php",
+		"/Users/alvinjohntandoc/Sites/Laravel/employeeportal_laravel/app/storage/logs/laravel.log",
+		"/Users/alvinjohntandoc/Sites/Laravel/employeeportal_laravel/public/css/Employee/style.css",
+		"/Users/alvinjohntandoc/Sites/Laravel/employeeportal_laravel/vendor/predis/predis/lib/Predis/ResponseObjectInterface.php",
+		"/Users/alvinjohntandoc/Sites/Laravel/employeeportal_laravel/readme.md",
+		"/Users/alvinjohntandoc/Sites/Laravel/employeeportal_laravel/app/views/admin/base.blade.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/alvinjohntandoc/Documents/Titanium_Studio_Workspace/CrashCourseTitanium",
+			"/Users/alvinjohntandoc/Sites/Titanium/worldairporttransfer",
+			"/Users/alvinjohntandoc/Sites/Titanium/AlloySliderMenu-master",
+			"/Users/alvinjohntandoc/Desktop/Divi2",
+			"/Users/alvinjohntandoc/Sites/wordpress/oneway/wp-content/themes/barnelli-wp",
+			"/Users/alvinjohntandoc/Sites/wordpress/oneway/wp-content",
+			"/Users/alvinjohntandoc/Sites/wordpress/oneway/wp-content/themes/barnelli-wp",
+			"/Users/alvinjohntandoc/Sites/wordpress/oneway/wp-content/themes",
+			"/Users/alvinjohntandoc/Sites/wordpress/oneway/wp-content",
+			"/Users/alvinjohntandoc/Sites/wordpress/oneway/wp-content/themes/barnelli-wp",
+			"/Users/alvinjohntandoc/Sites/wordpress/oneway/wp-content/themes",
+			"/Users/alvinjohntandoc/Sites/wordpress/oneway/wp-content/themes/barnelli-wp",
+			"/Users/alvinjohntandoc/Sites/Laravel/employeeportal_laravel",
+			"/Users/alvinjohntandoc/Sites/Laravel/employeeportal_laravel/app/views/admin",
+			"/Users/alvinjohntandoc/Sites/Laravel/employeeportal_laravel"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Alloy.createController",
+			"getValue",
+			"proceedCode",
+			"\"",
+			"btn_test4",
+			"z",
+			"get",
+			"xhr",
+			"get",
+			"Alloy.Globals.guid ",
+			"refresh",
+			"guid",
+			"catId",
+			"save",
+			"touchEnabled",
+			"touchEnabled\ntouchEnabled",
+			"rowId",
+			"reload",
+			"nil",
+			"table",
+			"ti",
+			"filteredPosts",
+			"map",
+			"posts",
+			"Posts",
+			"progressIndicator",
+			"imgPath",
+			"content",
+			"win",
+			"drawer",
+			"Alloy.CFG.contentView",
+			"menuTable.data",
+			"u",
+			"send",
+			"@",
+			"modules",
+			"carpentry",
+			"view_imgtoolboxpersonae",
+			"			 $.view_imgtoolboxyz.backgroundColor = 'brown';	",
+			"view_imgtoolboxyz",
+			"<ImageView class=\"img_toolbox\"></ImageView>",
+			"toolbox@2x",
+			"reveal",
+			"view_sideBar",
+			"view1",
+			"revea",
+			"reveal",
+			"reser",
+			"animate",
+			" $.rightButton",
+			"rifhButton",
+			"touchEnabled",
+			"right",
+			"dele",
+			"+1",
+			"rowIndex",
+			"info",
+			"indo",
+			"curre",
+			"createRo",
+			"Ti.API",
+			"console",
+			"code 3",
+			"code3",
+			" createRow(currentIndex);",
+			"deleting",
+			"deleting 4",
+			"code3",
+			"opp",
+			"row",
+			"getDa",
+			"status",
+			"remove",
+			"lastInd",
+			"currentIndex",
+			"console.l",
+			"load",
+			"console.log",
+			"linkCompleteID",
+			"$catId",
+			"category",
+			"lists",
+			"cl",
+			"close",
+			"labe",
+			"300",
+			"row1",
+			"250",
+			"menu",
+			"menu.js",
+			"Check my booking",
+			"menur",
+			"createSection",
+			"leftButton",
+			"left",
+			"$.ds.leftMenu",
+			"$.ds.leftTableView",
+			"leftTableView.data",
+			"lastAngle",
+			"view",
+			"Ti.API.info",
+			"groups]",
+			"groups",
+			"imagePositions",
+			"hasView",
+			"image",
+			"groups",
+			"ti.api",
+			"view",
+			"zInd",
+			"view",
+			"imagView",
+			"post",
+			"UNIT",
+			"chan",
+			"next",
+			"       Alloy.Globals.img_tmp",
+			"	\n",
+			"Divi",
+			"name",
+			"share",
+			"beard",
+			"facebook",
+			"sign up",
+			"7px",
+			"Sign Up",
+			"h3",
+			"sign up"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'",
+			"400",
+			"300",
+			"Divi2",
+			"<span class=\"arrow\">  •  </span>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "CHANGELOG.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"rout",
+				"app/routes.php"
+			],
+			[
+				"style.css",
+				"public/css/Employee/style.css"
+			],
+			[
+				"base.blade",
+				"app/views/admin/base.blade.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
