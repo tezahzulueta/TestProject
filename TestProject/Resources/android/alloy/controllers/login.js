@@ -49,6 +49,7 @@ function Controller() {
         font: {
             fontSize: 16
         },
+        hintText: "Enter Username",
         color: "black",
         top: "24%",
         left: "45%",
@@ -77,6 +78,7 @@ function Controller() {
         font: {
             fontSize: 16
         },
+        hintText: "Enter Password",
         color: "black",
         top: "39%",
         left: "45%",
@@ -98,6 +100,21 @@ function Controller() {
     $.__views.login.add($.__views.btn_login);
     exports.destroy = function() {};
     _.extend($, $.__views);
+    $.btn_login.addEventListener("click", function() {
+        var _username = $.txt_username.value;
+        var _password = $.txt_password.value;
+        var posts = Alloy.Collections.instance("post");
+        posts.fetch();
+        filteredPosts = posts.where({
+            username: _username,
+            password: _password
+        });
+        if (1 == filteredPosts.length) {
+            Ti.App.Properties.setString("username", _username);
+            var win = Alloy.createController("dashboard").getView();
+            win.open();
+        } else alert("incorrect login");
+    });
     _.extend($, exports);
 }
 

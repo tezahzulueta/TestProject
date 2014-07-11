@@ -3,40 +3,45 @@
 	layout:	"vertical"
 }
 
-"Label": {
-	width: Ti.UI.SIZE,
-	height: Ti.UI.SIZE,
-	color: "#000"
-}
-
 "#lbl_title": {
 	color: 'Black',
   	font: { fontSize:48 },
   	shadowColor: '#aaa',
   	shadowOffset: {x:5, y:5},
   	shadowRadius: 3,
-  	text: 'Test Project',
+  	text: 'Dashboard',
   	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
   	top: 30,
   	width: Ti.UI.SIZE, 
   	height: Ti.UI.SIZE
 } 
 
-"#Login":{
-	title: "Login",
-	backgroundColor: "Blue"
-
-}
-
-"#btn_login":{
-	title:"Login",
+"#btn_google":{
+	title:"Open Google",
 	backgroundColor: 'blue',
-	top:"20%",
+	top: "10%",
 	width: "30%",
 	height: Ti.UI.SIZE
 }
-"#btn_register":{
-	title:"Register",
+
+"#btn_gallery":{
+	title:"Open Photo Gallery",
+	backgroundColor: 'red',
+	top:"10",
+	width: "30%",
+	height: Ti.UI.SIZE
+}
+
+"#btn_camera":{
+	title:"Open Camera",
+	backgroundColor: 'blue',
+	top:"10",
+	width: "30%",
+	height: Ti.UI.SIZE
+}
+
+"#btn_profile":{
+	title:"Edit Profile",
 	backgroundColor: 'red',
 	top:"10",
 	width: "30%",

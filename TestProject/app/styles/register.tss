@@ -112,7 +112,7 @@
 	borderColor: "#59BCFF",
 	top: "69%",
 	left: "35%",
-	width: "31%",
+	width: "40%",
 	height: Ti.UI.SIZE,
 	textAlign: Ti.UI.TEXT_ALIGNMENT_BOTTOM,
 	padding: 0

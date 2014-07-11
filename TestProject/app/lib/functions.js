@@ -8,6 +8,9 @@ var _birthdate = "";
 var dataCollections = function() {
 	var collections = Alloy.Collections.instance("post");
 	collections.fetch({success:function(){
+		//collections.map() is a function that loops through each element in the collection
+		//collections.map accepts a function as an argument
+		//data was the name of the function where I want to pass the value in collections	
 		collections.map(function(post){
 			_username = post.get("username");
 			_email = post.get("email");
@@ -22,13 +25,6 @@ var dataCollections = function() {
 
 		});
 	}});
-
-		//collections.map() is a function that loops through each element in the collection
-		//collections.map accepts a function as an argument
-		//data was the name of the function where I want to pass the value in collections
-		
-
-	
 };
 
 exports.dataCollections = dataCollections;

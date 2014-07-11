@@ -32,6 +32,7 @@
 }
 
 "#txt_username": {	font: { fontSize:16 },
+	hintText: "Enter Username",
 	color: "black",
 	top: "24%",
 	left: "45%",
@@ -53,6 +54,7 @@
 
 "#txt_password": {
 	font: { fontSize:16 },
+	hintText: "Enter Password",
 	color: "black",
 	top: "39%",
 	left: "45%",

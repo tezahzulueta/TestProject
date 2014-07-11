@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class="container">
+		<Label id="lbl_title"></Label>
+		<Button id="btn_google"></Button>
+		<Button id="btn_gallery"></Button>
+		<Button id="btn_camera"></Button>
+		<Button id="btn_profile"></Button>
+	</Window>
+</Alloy>

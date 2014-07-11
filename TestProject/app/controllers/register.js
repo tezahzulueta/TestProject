@@ -23,30 +23,6 @@ var saveData = function()
       //code to save date from database
       post.save();
     }
-
-      // //code for accessing the database post
-      // posts = Alloy.Collections.instance("post");
-      // posts.fetch();
-
-      // //for getting the data in database and passing it to the variables
-      // posts.map(function(post){
-      //   var _username = post.get("usenrame");
-      //   var _email = post.get("email");
-      //   var _password = post.get("password");
-      //   var _gender = post.get("gender");
-
-      // //for testing if the data has been saved
-      //   Ti.API.info("USERNAME: " + _username);
-      //   Ti.API.info("EMAIL: " + _email);
-      //   Ti.API.info("PASSWORD: " + _password);
-      //   Ti.API.info("GENDER: " + _gender);
-
-      // });
-  // else 
-  //   {
-  //     //if the textfiled has a null value alert message will pop up
-  //     alert("Fill up the field!");
-  //   }
 };
 
 //code for clicking the female button 
@@ -93,6 +69,7 @@ $.txt_date.addEventListener('click',function() {
       		Ti.API.info('User canceled dialog');
     	} 
    		else {
+          $.txt_date.value = e.value;
       		Ti.API.info('User selected date: ' + e.value);
     	}
   		}

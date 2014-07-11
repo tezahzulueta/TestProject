@@ -151,7 +151,7 @@ function Controller() {
         borderColor: "#59BCFF",
         top: "69%",
         left: "35%",
-        width: "31%",
+        width: "40%",
         height: Ti.UI.SIZE,
         textAlign: Ti.UI.TEXT_ALIGNMENT_BOTTOM,
         padding: 0,
@@ -209,7 +209,10 @@ function Controller() {
         $.picker.showDatePickerDialog({
             value: new Date(current_Date),
             callback: function(e) {
-                e.cancel ? Ti.API.info("User canceled dialog") : Ti.API.info("User selected date: " + e.value);
+                if (e.cancel) Ti.API.info("User canceled dialog"); else {
+                    $.txt_date.value = e.value;
+                    Ti.API.info("User selected date: " + e.value);
+                }
             }
         });
     });
