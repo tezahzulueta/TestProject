@@ -1,16 +1,16 @@
 function Controller() {
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
-    this.__controllerPath = "register";
+    this.__controllerPath = "update";
     arguments[0] ? arguments[0]["__parentSymbol"] : null;
     arguments[0] ? arguments[0]["$model"] : null;
     arguments[0] ? arguments[0]["__itemTemplate"] : null;
     var $ = this;
     var exports = {};
-    $.__views.register = Ti.UI.createWindow({
+    $.__views.update = Ti.UI.createWindow({
         backgroundColor: "white",
-        id: "register"
+        id: "update"
     });
-    $.__views.register && $.addTopLevelView($.__views.register);
+    $.__views.update && $.addTopLevelView($.__views.update);
     $.__views.lbl_title = Ti.UI.createLabel({
         color: "Black",
         font: {
@@ -29,7 +29,7 @@ function Controller() {
         height: Ti.UI.SIZE,
         id: "lbl_title"
     });
-    $.__views.register.add($.__views.lbl_title);
+    $.__views.update.add($.__views.lbl_title);
     $.__views.lbl_username = Ti.UI.createLabel({
         text: "Username:",
         top: "20%",
@@ -37,7 +37,7 @@ function Controller() {
         color: "black",
         id: "lbl_username"
     });
-    $.__views.register.add($.__views.lbl_username);
+    $.__views.update.add($.__views.lbl_username);
     $.__views.txt_username = Ti.UI.createTextField({
         font: {
             fontSize: 16
@@ -53,7 +53,7 @@ function Controller() {
         padding: 0,
         id: "txt_username"
     });
-    $.__views.register.add($.__views.txt_username);
+    $.__views.update.add($.__views.txt_username);
     $.__views.lbl_email = Ti.UI.createLabel({
         text: "Email:",
         top: "30%",
@@ -61,7 +61,7 @@ function Controller() {
         color: "black",
         id: "lbl_email"
     });
-    $.__views.register.add($.__views.lbl_email);
+    $.__views.update.add($.__views.lbl_email);
     $.__views.txt_email = Ti.UI.createTextField({
         font: {
             fontSize: 16
@@ -77,7 +77,7 @@ function Controller() {
         padding: 0,
         id: "txt_email"
     });
-    $.__views.register.add($.__views.txt_email);
+    $.__views.update.add($.__views.txt_email);
     $.__views.lbl_password = Ti.UI.createLabel({
         text: "Password:",
         top: "40%",
@@ -85,7 +85,7 @@ function Controller() {
         color: "black",
         id: "lbl_password"
     });
-    $.__views.register.add($.__views.lbl_password);
+    $.__views.update.add($.__views.lbl_password);
     $.__views.txt_password = Ti.UI.createTextField({
         font: {
             fontSize: 16
@@ -102,7 +102,7 @@ function Controller() {
         padding: 0,
         id: "txt_password"
     });
-    $.__views.register.add($.__views.txt_password);
+    $.__views.update.add($.__views.txt_password);
     $.__views.lbl_gender = Ti.UI.createLabel({
         text: "Gender",
         font: {
@@ -113,7 +113,7 @@ function Controller() {
         color: "black",
         id: "lbl_gender"
     });
-    $.__views.register.add($.__views.lbl_gender);
+    $.__views.update.add($.__views.lbl_gender);
     $.__views.btn_male = Ti.UI.createButton({
         title: "Male",
         backgroundColor: "#3399FF",
@@ -123,7 +123,7 @@ function Controller() {
         height: "8%",
         id: "btn_male"
     });
-    $.__views.register.add($.__views.btn_male);
+    $.__views.update.add($.__views.btn_male);
     $.__views.btn_female = Ti.UI.createButton({
         title: "Female",
         backgroundColor: "#FF6699",
@@ -133,7 +133,7 @@ function Controller() {
         height: "8%",
         id: "btn_female"
     });
-    $.__views.register.add($.__views.btn_female);
+    $.__views.update.add($.__views.btn_female);
     $.__views.lbl_birthdate = Ti.UI.createLabel({
         text: "Birthdate:",
         top: "70%",
@@ -141,7 +141,7 @@ function Controller() {
         color: "black",
         id: "lbl_birthdate"
     });
-    $.__views.register.add($.__views.lbl_birthdate);
+    $.__views.update.add($.__views.lbl_birthdate);
     $.__views.txt_date = Ti.UI.createTextField({
         font: {
             fontSize: 16
@@ -157,11 +157,11 @@ function Controller() {
         padding: 0,
         id: "txt_date"
     });
-    $.__views.register.add($.__views.txt_date);
+    $.__views.update.add($.__views.txt_date);
     $.__views.picker = Ti.UI.createPicker({
         id: "picker"
     });
-    $.__views.register.add($.__views.picker);
+    $.__views.update.add($.__views.picker);
     $.__views.btn_signup = Ti.UI.createButton({
         title: "Sign Up",
         backgroundColor: "#FE2E2E",
@@ -172,51 +172,40 @@ function Controller() {
         height: "8%",
         id: "btn_signup"
     });
-    $.__views.register.add($.__views.btn_signup);
+    $.__views.update.add($.__views.btn_signup);
     exports.destroy = function() {};
     _.extend($, $.__views);
-    var functions = require("functions");
+    var username = "";
+    var email = "";
+    var password = "";
     var gender = "";
-    var post = null;
-    $.btn_female.addEventListener("click", function() {
+    var loginUsername = Ti.App.Properties.getString("username");
+    Ti.API.info(loginUsername);
+    var getData = Alloy.Collections.instance("post");
+    getData.fetch();
+    var filteredData = getData.where({
+        username: loginUsername
+    });
+    filteredData.map(function(data) {
+        username = data.get("username");
+        email = data.get("email");
+        password = data.get("password");
+        gender = data.get("gender");
+        Ti.API.info(username);
+        Ti.API.info(email);
+        Ti.API.info(password);
+        Ti.API.info(gender);
+    });
+    $.txt_username.hintText = username;
+    $.txt_email.hintText = email;
+    $.txt_password.hintText = password;
+    if ("female" == gender) {
         $.btn_female.backgroundColor = "#FF0066";
         $.btn_male.backgroundColor = "#3399FF";
-        gender = "female";
-    });
-    $.btn_male.addEventListener("click", function() {
+    } else if ("male" == gender) {
         $.btn_male.backgroundColor = "#0066FF";
         $.btn_female.backgroundColor = "#FF6699";
-        gender = "male";
-    });
-    $.btn_signup.addEventListener("click", function() {
-        username = $.txt_username.value;
-        var username = $.txt_username.value;
-        var email = $.txt_email.value;
-        var password = $.txt_password.value;
-        var birthdate = "";
-        post = Alloy.createModel("post", {
-            username: username,
-            email: email,
-            password: password,
-            gender: gender,
-            birthdate: birthdate
-        });
-        post.save();
-        alert("Successfully Sign Up!");
-        functions.dataCollections();
-    });
-    var current_Date = Date.now();
-    $.txt_date.addEventListener("click", function() {
-        $.picker.showDatePickerDialog({
-            value: new Date(current_Date),
-            callback: function(e) {
-                if (e.cancel) Ti.API.info("User canceled dialog"); else {
-                    $.txt_date.value = e.value;
-                    Ti.API.info("User selected date: " + e.value);
-                }
-            }
-        });
-    });
+    }
     _.extend($, exports);
 }
 

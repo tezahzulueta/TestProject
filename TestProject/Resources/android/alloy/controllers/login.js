@@ -65,6 +65,7 @@ function Controller() {
             fontSize: 16
         },
         text: "Password:",
+        passwordMask: true,
         textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
         top: "40%",
         left: "20%",
@@ -78,6 +79,7 @@ function Controller() {
         font: {
             fontSize: 16
         },
+        passwordMask: true,
         hintText: "Enter Password",
         color: "black",
         top: "39%",
@@ -111,6 +113,8 @@ function Controller() {
         });
         if (1 == filteredPosts.length) {
             Ti.App.Properties.setString("username", _username);
+            var un = Ti.App.Properties.getString("username");
+            Ti.API.info(un);
             var win = Alloy.createController("dashboard").getView();
             win.open();
         } else alert("incorrect login");

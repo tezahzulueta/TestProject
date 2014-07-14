@@ -45,6 +45,7 @@
 	color: 'Black',
   	font: { fontSize:16 },
   	text: 'Password:',
+  	passwordMask: true,
   	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
   	top: "40%", 
   	left: "20%",
@@ -54,6 +55,7 @@
 
 "#txt_password": {
 	font: { fontSize:16 },
+	passwordMask: true,
 	hintText: "Enter Password",
 	color: "black",
 	top: "39%",

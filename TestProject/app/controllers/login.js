@@ -9,6 +9,8 @@ $.btn_login.addEventListener('click',function() {
 	filteredPosts = posts.where({username: _username, password:_password});
 	if(filteredPosts.length	== 1){
 		Ti.App.Properties.setString("username",_username);
+		var un = Ti.App.Properties.getString("username");
+		Ti.API.info(un);
 		var win = Alloy.createController('dashboard').getView();
 		win.open();
 	}

@@ -55,6 +55,7 @@ $.btn_signup.addEventListener("click", function() {
     birthdate: birthdate
   });
   post.save();
+  alert("Successfully Sign Up!");
   //calling the functions 
   functions.dataCollections();
 });

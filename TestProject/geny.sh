@@ -1,7 +1,7 @@
-#!/bin/bash
+##!/bin/bash
 #sample bash script to compile and run in Genymotion
  
-titanium build --platform android --sdk 3.2.2.GA --build-only --shadow;
+titanium build --platform android --sdk 3.3.0 --build-only --shadow;
  
 #adb -s 192.168.56.101:5555 install -r "build/appify/build/android/bin/TestProject.apk";
  

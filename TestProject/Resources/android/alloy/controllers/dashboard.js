@@ -124,11 +124,10 @@ function Controller() {
             mediaTypes: [ Ti.Media.MEDIA_TYPE_VIDEO, Ti.Media.MEDIA_TYPE_PHOTO ]
         });
     });
-    var updateProfile = function() {
-        var win = Alloy.createController("register").getView();
+    $.btn_profile.addEventListener("click", function() {
+        var win = Alloy.createController("update").getView();
         win.open();
-    };
-    $.btn_profile.addEventListener("click", updateProfile);
+    });
     _.extend($, exports);
 }
 

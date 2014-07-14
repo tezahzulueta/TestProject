@@ -77,9 +77,7 @@ $.btn_gallery.addEventListener('click', function() {
 	});
 });
 
-
-var updateProfile = function() {
-	var win = Alloy.createController('register').getView();
-	win.open();
-}
-$.btn_profile.addEventListener('click', updateProfile);
+$.btn_profile.addEventListener('click', function() {
+    var win = Alloy.createController('update').getView();
+    win.open();
+});
